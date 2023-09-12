@@ -34,7 +34,25 @@ video {
 
 #verRespuesta {
     display: none;
-    margin-top: 30px; /* Agrega un margen superior */
+    margin: 10px; /* Agrega un margen superior */
     font-size: 18px;
-    color: #333;
+    color: #ffffff;
+}
+
+.respuesta {
+    font-size: 18px;
+    color: #071f4c;
+    margin-top: 10px; /* Agrega un margen superior */
+    padding: 10px; /* Agrega un espacio interno al elemento de respuesta */
+    background-color: #f2f2f2; /* Fondo gris claro */
+    border: 1px solid #ccc; /* Borde del elemento */
+    border-radius: 5px; /* Bordes redondeados */
+    text-align: center; /* Texto centrado */
+}
+
+#siguiente{
+    display: none;
+    margin: 10px; /* Agrega un margen superior */
+    font-size: 18px;
+    color: #ffffff;
 }
